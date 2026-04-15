@@ -2,6 +2,8 @@
 
 AI-powered tool for generating Amazon-ready product images (main/scene/detail/A+) from reference images, with controllable styles and text rules.
 
+![App Screenshot](docs/readme/app.png)
+
 ## Features
 
 - Generate four image types: Main (white background), Scene, Detail, A+
@@ -147,6 +149,8 @@ Response:
 # 亚马逊商品图生成器（Amazon Product Image Generator）
 
 基于参考图生成可用于 Amazon 上架的商品图片（白底主图/场景图/细节图/A+），支持风格控制与严格的文案渲染规则。
+
+![界面截图](docs/readme/app.png)
 
 ## 功能特性
 
