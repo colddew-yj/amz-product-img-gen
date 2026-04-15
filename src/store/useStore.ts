@@ -252,12 +252,9 @@ export const useStore = create<StoreState>((set, get) => ({
             message = String(data.error)
           }
         } catch {
-          try {
-            const text = await response.text()
-            if (text.trim()) {
-              message = text
-            }
-          } catch {
+          const text = await response.text().catch(() => '')
+          if (text.trim()) {
+            message = text
           }
         }
         throw new Error(message)
