@@ -19,6 +19,11 @@ uploads/
 public/generated/
 .trae/
 
+# Local prompt debug artifacts
+typography_variants.json
+prompt_dump*.txt
+docs/screenshots/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
